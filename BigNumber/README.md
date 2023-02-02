@@ -19,4 +19,4 @@ for i in range(len(list)-1):
     if list[i] < list[j]:
       answer[i] = list[j]
       break
-<hr/>
+</hr>
