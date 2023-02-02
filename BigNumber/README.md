@@ -4,15 +4,15 @@ CodingTest에서 뒤큰수를 구하는 문제
 ## FILE
 * BigNumber.py
 
-stack을 사용하여 뒤큰수를 구현한 파일
+  stack을 사용하여 뒤큰수를 구현한 파일
 
 * BigNumber_Comment.py
 
-주석 첨부
+  주석 첨부
 
 * BigNumber.txt
 
-stack을 사용하여 구현했을 때의 동작과정을 예제를 들어 설명한 파일
+  stack을 사용하여 구현했을 때의 동작과정을 예제를 들어 설명한 파일
 
 ## 문제설명
 ![Picture1](https://user-images.githubusercontent.com/123911778/216243776-912cbd46-62e3-4173-b011-e8b038276465.png)
