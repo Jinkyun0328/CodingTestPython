@@ -1,9 +1,9 @@
-#Connected_One
+# Connected_One
 2차원 matrix인 canvas에서 1을 찾은 후 연결된 1을 같은 숫자로 변경하는 프로그램
 응용 : 코딩테스트 무인도
 
-##python file
-*FILE
+## python file
+* FILE
 FILL.py
 재귀함수를 사용하여 구현
 
@@ -16,7 +16,7 @@ NRFILL.py
 NRFILL_Comment.py
 주석 첨부
 
-##Algorithm
+## Algorithm
 ![Alt text](https://user-images.githubusercontent.com/123911778/216236471-9fe8dce0-3662-4315-95da-77a307ff7c7e.png)
 
 2차원 배열에서 0과 1이 채워져 있다. 연결되어 있는 1을 서로 다른 숫자로 채워넣는 프로그램이다.
