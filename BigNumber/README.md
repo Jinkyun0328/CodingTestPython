@@ -2,13 +2,13 @@
 CodingTest에서 뒤큰수를 구하는 문제
 
 ## FILE
-BigNumber.py
+* BigNumber.py
 stack을 사용하여 뒤큰수를 구현한 파일
 
-BigNumber_Comment.py
+* BigNumber_Comment.py
 주석 첨부
 
-BigNumber.txt
+* BigNumber.txt
 stack을 사용하여 구현했을 때의 동작과정을 예제를 들어 설명한 파일
 
 ## 문제설명
