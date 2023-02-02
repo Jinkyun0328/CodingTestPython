@@ -40,6 +40,7 @@ list의 뒤에 있는 큰 수 중 가장 가까이에 있는 수를 뒤큰수라
 
 단, list의 크기가 길어질수록 소요시간은 n^2로 증가하기 때문에 처리속도가 늦어진다.
 ![Picture2](https://user-images.githubusercontent.com/123911778/216243779-1630d9c9-b1b8-419a-a3a6-4e66c05ec576.png)
+
 이중 for문을 사용하여 구현했을 때 Picture2와 같이 시간초과가 나왔고 속도를 줄이기 위해서는 이중 for문 대신 stack을 사용해야 했다.
 
 ## Algorithm
