@@ -13,10 +13,13 @@ list의 뒤에 있는 큰 수 중 가장 가까이에 있는 수를 뒤큰수라
 6의 바로 뒤의 큰 수는 없고, 2는 마지막 숫자이므로 -1을 반환한다.
 
 이 문제는 간단하게 이중 for문을 사용하여 풀 수 있다. 
-<hr/>
-for i in range(len(list)-1):
-  for j in range(1, len(list)):
-    if list[i] < list[j]:
-      answer[i] = list[j]
-      break
-</hr>
+<pre>
+  <code>{
+    for i in range(len(list)-1):
+      for j in range(1, len(list)):
+        if list[i] < list[j]:
+          answer[i] = list[j]
+          break}
+  </code>
+</pre>  
+
