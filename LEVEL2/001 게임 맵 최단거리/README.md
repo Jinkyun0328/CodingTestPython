@@ -25,3 +25,26 @@ BFS(Breadth-First Search) 너비우선탐색이란 루트 노드(혹은 다른 �
 4. BFS는 방문한 노드들을 차례로 저장한 후 꺼낼 수 있는 자료 구조인 Queue를 사용한다.
 
 ***=> 두 지점 사이의 최단 경로를 찾는 것이므로 BFS를 사용*** 
+
+## 코드 설명
+![images4](https://user-images.githubusercontent.com/123911778/270201179-87380c11-59a7-4d19-bd2c-42f0f70c77d1.PNG)
+![images5](https://user-images.githubusercontent.com/123911778/270201181-ba3323b3-80fa-494b-a077-02107b67abcb.PNG)
+
+코드상에서 bfs(y, x)를 구현한다.
+방문한 노드들을 차례대로 저장한 후 꺼낼 수 있도록 deque을 사용한다.
+처음에는 시작노드인 (y, x)와 거리 1을 저장한다.
+
+반복문은 q가 비어있을 때까지 반복 즉 q가 채워져 있으면 반복문을 계속 실행한다.
+y, x, distance에 q의 값을 pop한다. (queue에서는 값이 사라짐)
+y와 x가 마지막 노드 즉 상대방 진영의 위치와 같다면 현재 distance을 반환한다.
+만약 maps[y][x]가 0이라면 길이 아니거나 이미 지나온 길이므로 continue을 사용하여 반복문의 시작으로 넘어간다.
+queue에 상하좌우의 좌표와 현재 거리 + 1을 저장한다.
+
+만약 반복문을 모두 실행할 때까지 return이 되지 않았다면 경로가 없는 것이므로 -1을 반환한다.
+
+## 참고
+코드를 보면 distance가 1인 시점에서부터 시작하여 queue에는 거리가 작은 지점부터 값이 저장되고
+거리가 작은 지점의 값을 먼저 pop하여 조회한다. 이러한 bfs은 최단 경로를 탐색하기에 편리하다.
+
+## 실행결과
+![images6](https://user-images.githubusercontent.com/123911778/270201182-1747023d-198e-4c82-bdeb-8ff9e969d64e.PNG)
